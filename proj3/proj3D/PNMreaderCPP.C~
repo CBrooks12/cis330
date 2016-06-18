@@ -1,0 +1,31 @@
+void PNMreader::Execute(){
+	ReadImage(filename, *GetOutput());
+}
+
+void readImage(char *filename, Image &output) {
+    
+    ifstream aFile;
+	aFile.open(filename, ios::binary);
+
+	char x[10];
+	int aWidth, aHeight, aMaxVal;
+	
+	if(!aFile)
+		cerr <<  "Unable to open file " << filename << endl;
+
+	aFile >> x >> aWidth >> aHeight >> aMaxval;
+	
+	output.setWidth(aWidth);
+	output.setHeight(aHeight);
+	output.setMaxVal(aMaxVal);
+    output.setPixelData(new aPixel[aWidth * aHeight]);
+	
+	unsigned char * temp = (unsigned char *) malloc(3*height*width+1);
+
+	ifs.read((char *) temp, width*height*3); 
+	img.setData((unsigned char *) temp +1);
+
+	ifs.close();
+	free(temp);
+}
+

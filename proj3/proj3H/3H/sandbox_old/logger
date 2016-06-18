@@ -1,0 +1,58 @@
+Entered program from ndaniels
+
+Invert: about to update input1
+Checkerboard: about to update input2
+Crop: about to update input1
+PNMreader: about to execute
+PNMreader: done executing
+Crop: done updating input1
+Crop: about to execute
+Crop: done executing
+Checkerboard: done updating input2
+Checkerboard: about to update input1
+Shrinker: about to update input1
+TBConcat: about to update input2
+LRConcat: about to update input2
+Crop: about to update input1
+PNMreader: about to execute
+PNMreader: done executing
+Crop: done updating input1
+Crop: about to execute
+Crop: done executing
+LRConcat: done updating input2
+LRConcat: about to update input1
+Shrinker: about to update input1
+PNMreader: about to execute
+PNMreader: done executing
+Shrinker: done updating input1
+Shrinker: about to execute
+Shrinker: done executing
+LRConcat: done updating input1
+LRConcat: about to execute
+LRConcat: done executing
+TBConcat: done updating input2
+TBConcat: about to update input1
+LRConcat: about to update input2
+Crop: about to update input1
+PNMreader: about to execute
+PNMreader: done executing
+Crop: done updating input1
+LRConcat: done updating input2
+LRConcat: about to update input1
+Shrinker: about to update input1
+PNMreader: about to execute
+PNMreader: done executing
+Shrinker: done updating input1
+LRConcat: done updating input1
+TBConcat: done updating input1
+TBConcat: about to execute
+TBConcat: done executing
+Shrinker: done updating input1
+Shrinker: about to execute
+Shrinker: done executing
+Checkerboard: done updating input1
+Checkerboard: about to execute
+Checkerboard: done executing
+Invert: done updating input1
+Invert: about to execute
+Invert: done executing

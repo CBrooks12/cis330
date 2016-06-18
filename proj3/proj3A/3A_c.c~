@@ -1,0 +1,28 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+typedef struct
+{
+/* data members go here */
+} Image;
+
+Image *
+ReadImage(char *filename)
+{
+}
+
+
+void WriteImage(Image *img, char *filename)
+{
+}
+
+Image *
+YellowDiagonal(Image *input)
+{
+}
+
+int main(int argc, char *argv[])
+{
+   /* Read an image, apply yellow diagonal to it, then write */
+}

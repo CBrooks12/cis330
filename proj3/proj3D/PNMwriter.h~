@@ -1,0 +1,19 @@
+#ifndef PNMwriter_H
+#define PNMwriter_H
+#include <iostream>
+#include "image.h"
+#include "sink.h"
+using namespace std;
+class PNMwriter : public sink
+{
+
+public:
+	PNMwriter();
+	//void SetImg(Image *aImg){ SetInput(aImg); };
+	void Write(char*);
+	//void display();
+	//virtual void Execute(){WriteImage(char *filename, Image img);};
+
+
+};
+#endif

@@ -1,0 +1,8 @@
+In my findings, I noticed that the colors took about the same amount of time to
+execute. Blue sometimes ended up being faster, but the difference was
+negligable. The blender function took as long as both of the colors combined
+(on average). I Had to run the tests multiple times to get an accurate reading
+due to inconsistancies. Every time I doubled the size of the image, the times
+of the functions seemed to grow proportonally as expected. The most noticable
+time was the jump from 1000x1000 to 2000x2000 where the time varied from around
+.20 seconds to .80 seconds for blender.

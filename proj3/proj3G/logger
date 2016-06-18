@@ -1,0 +1,30 @@
+Checkerboard: about to update input1
+LRConcat: about to update input1
+Color: about to execute
+Color: done executing
+LRConcat: done updating input1
+LRConcat: about to update input2
+Invert: about to update input1
+Transpose: about to update input1
+Crop: about to update input1
+PNMreader: about to execute
+PNMreader: done executing
+Crop: done updating input1
+Crop: about to execute
+Crop: done executing
+Transpose: done updating input1
+Transpose: about to execute
+Transpose: done executing
+Invert: done updating input1
+Invert: about to execute
+Invert: done executing
+LRConcat: done updating input2
+LRConcat: about to execute
+LRConcat: done executing
+Checkerboard: done updating input1
+Checkerboard: about to update input2
+Color: about to execute
+Color: done executing
+Checkerboard: done updating input2
+Checkerboard: about to execute
+Checkerboard: done executing
